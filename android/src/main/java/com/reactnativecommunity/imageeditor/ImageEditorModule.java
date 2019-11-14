@@ -441,10 +441,10 @@ public class ImageEditorModule extends ReactContextBaseJavaModule {
 
   private static Bitmap.CompressFormat getCompressFormatForType(String type) {
     if ("image/png".equals(type)) {
-      return Bitmap.CompressFormat.PNG;
+      return Bitmap.CompressFormat.JPEG;
     }
     if ("image/webp".equals(type)) {
-      return Bitmap.CompressFormat.WEBP;
+      return Bitmap.CompressFormat.JPEG;
     }
     return Bitmap.CompressFormat.JPEG;
   }
